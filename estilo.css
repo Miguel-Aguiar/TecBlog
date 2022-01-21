@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+	background-color: #FFD700;
+}
+
+#menu {
+	text-align: center;
+}
+
+#logo{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	padding: 20px;
+}
+
+.logo{
+	color: #696969;
+}
+
+#nav{
+	padding: 5px 0px 20px 0px;
+}
+
+#nav a{
+	font-weight: bold;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#nav a:link, a:visited{
+	color: white;
+}
+
+#nav a:hover{
+	color: #FFD700;
+	background-color: white;
+}
+
+#conteudo{
+	width: 900px;
+	margin: 0px auto;
+}
+
+#conteudo-principal{
+	width: 580px;
+	float: left;
+	padding-top: 40px;
+}
+
+.postagem{
+	padding-bottom: 40px;
+}
+
+.postagem h2{
+	color: #FFD700;
+}
+
+#conteudo a{
+	text-decoration: none;
+	color: #FFD700;
+}
+
+#conteudo-lateral{
+	width: 280px;
+	float: right;
+	padding-top: 20px;
+}
+
+#conteudo-lateral h3{
+	background-color: #D8D8D8;
+	color: #636363;
+	padding: 5px;
+}
+
+#conteudo-lateral p{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#categoria{
+	padding-top: 50px;
+}
+
+#categoria ul{
+	padding: 0px ;
+	list-style: none;
+}
+
+#rodape{
+	width: 860px;
+	height: 35px;
+	background-color: lightgrey;
+	margin: 0px auto;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+}
